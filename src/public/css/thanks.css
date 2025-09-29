@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.thankyou-container {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    padding: 50px 20px;
+    z-index: 1;
+}
+
+.message {
+    font-size: 20px;
+    color: #786565;
+    margin-bottom: 40px;
+    z-index: 10;
+}
+
+.home-button {
+    font-family: "Times New Roman", Georgia, "Hiragino Mincho ProN", serif;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    background-color: #9c8e87;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #7b6f69;
+}
+
+.background-text {
+    font-family: "Times New Roman", Georgia, "Hiragino Mincho ProN", serif;
+    font-size: 15vw;
+    color: #f2f0ea;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    white-space: nowrap;
+    opacity: 1;
+    z-index: -1;
+}

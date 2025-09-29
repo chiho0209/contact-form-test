@@ -1,0 +1,121 @@
+.header{
+    max-width:1400px;
+    margin:0 auto;
+    padding:18px 24px;
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:center;
+    background:#fff;
+    border-bottom:1px solid #e9e1d9
+}
+
+.site-title{
+    grid-column:2/3;
+    justify-self:center;
+    font-family: "Times New Roman", Georgia, "Hiragino Mincho ProN", serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: .02em;
+    word-spacing: .04em;
+    color:#a39182;
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: common-ligatures;
+}
+
+.page-heading{
+    text-align:center;
+    font-family: "Times New Roman", Georgia, "Hiragino Mincho ProN", serif;
+    font-weight: lighter;
+    font-size:28px;
+    color:#a39182;
+    margin:28px 0 16px;
+}
+
+.confirm__heading{
+	font-family:"Playfair Display",serif;
+	text-align:center;
+	font-size:28px;
+	margin:8px 0 24px;
+  color:#a39182;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.confirm-table {
+  border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+  width: 100%;
+}
+
+.confirm-table__header {
+  font-family:"Yu Gothic";
+  font-size:14px;
+  text-align: left;
+  padding: 15px;
+  width: 20%;
+  border-bottom: 1px solid #ece0dd;
+  background-color: #bfafaa;
+  color: #ffffff;
+}
+
+.confirm-table__text {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text input {
+  color:#a39182;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+  border-bottom-width: 0;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.button {
+    padding: 12px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.form__submit-button {
+    background-color: #8c7f78;
+    color: #ffffff;
+}
+
+.form__submit-button:hover {
+    background-color: #7b6f69;
+}
+
+.edit {
+    background-color: #ffffff;
+    color: #6a6a6a;
+    border: 1px solid #d0d0d0;
+}
+
+.edit:hover {
+    background-color: #f0f0f0;
+}
